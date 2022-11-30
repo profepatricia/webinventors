@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="exp">
+    <header class="barra">
+        <nav>
+            <button><a href= "index.html">Home</a></button>         
+            <button><a href="compuestos.html"> Compuestos</a></button>
+            <button><a href="reacciones.html">Reacciones</a></button>
+            <button><a href="contacto.html">Contacto</a></button>
+            
+        </nav>  
+    </header>
+    
+    <form action="https://formsubmit.co/brunoman133@email.com" method="POST">
+    <label for="apellido">apellido</label>
+    <input type="text" name="apellido" required>
+    <br>
+    <label for="password">password</label>
+    <input type="password" required>
+    <br>
+    <label for="edad">edad</label>
+    <input type="num" name="edad" required>
+    <br> 
+    <label for="direccion de mail">mail</label>
+    <input type="mail" name="direccion de mail">
+    <br>
+    <textarea class="comentario" name="comentario" cols="50" rows="10"></textarea>
+    <br>
+    <input type="submit" name="enviar" value="enviar formulario" >
+    <select class="comida" name="comidas" >
+        <option class="papas" value="papas">papas</option>
+        <option value="pizza">pizza</option>
+        <option value="capuchino">capuchino</option>
+        <option value="milanesa">milanesa</option>
+    </select>
+    <br>
+
+</form>
+<form action="mailto:brunoman133@gmail.com" method="POST">
+    <input type="text" name="name" required>
+    <input type="email" name="email" required>
+    <button type="submit">Send</button>
+</form>
+</body>
+</html>
